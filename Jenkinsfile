@@ -1,13 +1,13 @@
 pipeline {	
     agent any	
     options {	
-        overrideIndexTriggers(true)	
+        overrideIndexTriggers(false)	
     }	
     stages {	
         stage('Build') {	
             steps {	
                 sleep(time: 10, unit: 'SECONDS') 	
-                echo 'Hello World 5'	
+                echo 'Hello World 6'	
             }	
         }	
     }	
