@@ -1,13 +1,13 @@
 pipeline {	
     agent any	
-    //options {	
-    //    disableConcurrentBuilds()	
-    //}	
+    options {	
+        overrideIndexTriggers(true)	
+    }	
     stages {	
         stage('Build') {	
             steps {	
                 sleep(time: 10, unit: 'SECONDS') 	
-                echo 'Hello World 2'	
+                echo 'Hello World 4'	
             }	
         }	
     }	
