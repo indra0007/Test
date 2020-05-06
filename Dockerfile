@@ -1,1 +1,1 @@
-FROM ubuntu:latest
+FROM mcr.microsoft.com/windows/servercore
